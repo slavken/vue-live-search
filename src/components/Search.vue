@@ -1,7 +1,7 @@
 <template>
   <div class="col-md-6 mx-auto">
     <div class="input-group">
-      <input type="search" class="form-control form-control-lg" name="search" @input="getItems()" placeholder="Search" aria-label="Search">
+      <input type="search" class="form-control form-control-lg" name="search" @input="getItems" placeholder="Search" aria-label="Search">
       <div class="input-group-append">
         <button class="btn btn-lg btn-success" type="submit">
           <i class="fas fa-search"></i>
