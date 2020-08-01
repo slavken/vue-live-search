@@ -56,9 +56,7 @@ export default {
           this.items = res.data;
           this.error = null;
         })
-        .catch(() => {
-          this.error = 'Too many requests';
-        });
+        .catch(() => this.error = 'Too many requests');
 
         this.isLoaded = true;
       } else {
